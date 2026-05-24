@@ -8,3 +8,6 @@ Update host, user, pass: server.js
 
 `npm install`
 `node server.js`
+
+docker compose up -d --build   
+On browser: 127.0.0.1:3000

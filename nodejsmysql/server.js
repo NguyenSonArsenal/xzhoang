@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.get('/', function (req, res) {
-    return res.send({ error: true, message: 'hello' })
+    return res.send({ error: true, message: 'hello 12345' })
 });
 
 var dbConn = mysql.createConnection({
